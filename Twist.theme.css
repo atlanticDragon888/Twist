@@ -63,6 +63,8 @@
   --brand-experiment-560: hsl(47, 100%, 50%);
   --brand-experiment-500: hsl(47, 100%, 50%);
   --brand-experiment-400: hsl(47, 80%, 40%);
+  --modal-background: var(--background-primary);
+  --modal-footer-background: var(--background-secondary) ;
 }
 
 .theme-dark {
@@ -125,7 +127,7 @@
 
 :root {
   /* [ --THEME INFO-- ] */
-  --current-version: "1.1.1";
+  --current-version: "1.0.1";
 }
 :root .wordmarkWindows-2dq6rw, :root .wordmark-2u86JB {
   color: var(--accent-color);
