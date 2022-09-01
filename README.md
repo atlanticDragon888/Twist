@@ -1,4 +1,4 @@
-<!-- ![Atlantic-Cord](https://github.com/atlanticDragon888/Atlantic-cord/raw/main/screenshot/QK9vfxcAQm.png) -->
+![Atlantic-Cord](https://raw.githubusercontent.com/atlanticDragon888/Twist/main/screenshot/Twist.png)
 
 # Twist
 Discord theme based on PBTFans Twist Keycaps.
