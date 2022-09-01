@@ -1,0 +1,19 @@
+{
+  "name": "Twist",
+  "version": "1.0.0",
+  "description": "Discord theme based on PBTFan Twist Keycaps",
+  "scripts": {
+    "dev": "npx sass --watch ./src/_index.scss:Twist.theme.css",
+    "build": "npx sass ./src/_index.scss:Twist.theme.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atlanticdragon888/twist.git"
+  },
+  "author": "Atlantic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atlanticdragon888/twist/issues"
+  },
+  "homepage": "https://github.com/atlanticdragon888/twist#readme"
+}

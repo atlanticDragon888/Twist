@@ -1,0 +1,12 @@
+:root {
+  /* [ --THEME INFO-- ] */
+  --current-version: "1.1.1";
+
+  .wordmarkWindows-2dq6rw, .wordmark-2u86JB{
+    color: var(--accent-color);
+  }
+  ::selection{
+    color: var(--background-primary);
+    background-color: var(--accent-color);
+  }
+}
