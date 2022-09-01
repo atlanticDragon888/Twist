@@ -11,6 +11,7 @@
   --accent-yellow: hsl(47, 100%, 50%);
   --accent-green: hsl(47, 100%, 50%);
   --button-positive-background: hsl(47, 100%, 50%);
+  --button-positive-background-hover: hsl(47, 100%, 50%);
   --button-outline-danger-text: var(--channels-default);
   --header-primary: var(--text-normal);
   --header-secondary: var(--text-muted);
@@ -60,6 +61,7 @@
   --channeltextarea-background: var(--background-secondary);
   --brand-experiment: var(--accent-yellow);
   --brand-experiment-80a: hsla(47, 100%, 50%, 0.7);
+  --brand-experiment-600: hsl(47, 100%, 50%);
   --brand-experiment-560: hsl(47, 100%, 50%);
   --brand-experiment-500: hsl(47, 100%, 50%);
   --brand-experiment-400: hsl(47, 80%, 40%);
@@ -71,6 +73,7 @@
   --accent-yellow: hsl(47, 100%, 50%);
   --accent-green: hsl(47, 100%, 50%);
   --button-positive-background: hsl(47, 100%, 50%);
+  --button-positive-background-hover: hsl(47, 100%, 50%);
   --button-outline-danger-text: var(--channels-default);
   --header-primary: var(--text-normal);
   --header-secondary: var(--text-muted);
@@ -120,6 +123,7 @@
   --channeltextarea-background: var(--background-secondary);
   --brand-experiment: var(--accent-yellow);
   --brand-experiment-80a: hsla(47, 100%, 50%, 0.7);
+  --brand-experiment-600: hsl(47, 100%, 50%);
   --brand-experiment-560: hsl(47, 100%, 50%);
   --brand-experiment-500: hsl(47, 100%, 50%);
   --brand-experiment-400: hsl(47, 80%, 40%);
@@ -127,7 +131,7 @@
 
 :root {
   /* [ --THEME INFO-- ] */
-  --current-version: "1.0.1";
+  --current-version: "1.1.1";
 }
 :root .wordmarkWindows-2dq6rw, :root .wordmark-2u86JB {
   color: var(--accent-color);
@@ -272,6 +276,10 @@
 
 .progressBar-1T6LYX {
   background-color: var(--accent-color) !important;
+}
+
+.mention {
+  color: var(--accent-color);
 }
 
 .botTagVerified-2KCPMa, .botText-1fD6Qk {
