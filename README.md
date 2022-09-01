@@ -1,7 +1,7 @@
 <!-- ![Atlantic-Cord](https://github.com/atlanticDragon888/Atlantic-cord/raw/main/screenshot/QK9vfxcAQm.png) -->
 
 # Twist
-Discord theme based on PBTFan Twist Keycaps.
+Discord theme based on PBTFans Twist Keycaps.
 
 ## Building
 To build files in development (watch mode):
