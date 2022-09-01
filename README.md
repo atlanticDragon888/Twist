@@ -11,5 +11,4 @@ To build files once:
 ```npm run build```
 
 ## Credits
-* LuckFire for making the original theme.
-* Whatever I used without realizing, I'm a noob ;w;
+PBTFans for the colors and cool keycaps.
