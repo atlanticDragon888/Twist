@@ -1,10 +1,10 @@
 {
   "name": "Twist",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Discord theme based on PBTFans Twist Keycaps",
   "scripts": {
-    "dev": "npx sass --watch ./src/_index.scss:Twist.theme.css",
-    "build": "npx sass ./src/_index.scss:Twist.theme.css"
+    "dev": "npx sass --watch ./src/_index.scss:Theme.css",
+    "build": "npx sass ./src/_index.scss:Theme.css"
   },
   "repository": {
     "type": "git",
