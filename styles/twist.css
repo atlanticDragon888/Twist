@@ -3,7 +3,6 @@
     --accent-yellow: hsl(47, 100%, 50%);
     --accent-green: hsl(47, 100%, 50%);
     --button-positive-background: hsl(47, 100%, 50%);
-    --button-positive-background-hover: hsl(47, 100%, 50%);
     --button-outline-danger-text: var(--channels-default);
     --header-primary: var(--text-normal);
     --header-secondary: var(--text-muted);
@@ -53,7 +52,6 @@
     --channeltextarea-background: var(--background-secondary);
     --brand-experiment: var(--accent-yellow);
     --brand-experiment-80a: hsla(47, 100%, 50%, 0.7);
-    --brand-experiment-600: hsl(47, 100%, 50%);
     --brand-experiment-560: hsl(47, 100%, 50%);
     --brand-experiment-500: hsl(47, 100%, 50%);
     --brand-experiment-400: hsl(47, 80%, 40%);
@@ -65,7 +63,6 @@
     --accent-yellow: hsl(47, 100%, 50%);
     --accent-green: hsl(47, 100%, 50%);
     --button-positive-background: hsl(47, 100%, 50%);
-    --button-positive-background-hover: hsl(47, 100%, 50%);
     --button-outline-danger-text: var(--channels-default);
     --header-primary: var(--text-normal);
     --header-secondary: var(--text-muted);
@@ -115,7 +112,6 @@
     --channeltextarea-background: var(--background-secondary);
     --brand-experiment: var(--accent-yellow);
     --brand-experiment-80a: hsla(47, 100%, 50%, 0.7);
-    --brand-experiment-600: hsl(47, 100%, 50%);
     --brand-experiment-560: hsl(47, 100%, 50%);
     --brand-experiment-500: hsl(47, 100%, 50%);
     --brand-experiment-400: hsl(47, 80%, 40%);
