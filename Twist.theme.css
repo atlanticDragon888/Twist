@@ -1,11 +1,3 @@
-@charset "UTF-8";
-/**
- * @name Twist
- * @version 1.0.2
- * @description Discord theme based on PBTFan Twist Keycaps
- * @author Atlantic™#0001
- * @source https://github.com/atlanticDragon888/Twist
-*/
 /* ---- Discord Variables ---- */
 .theme-light {
   --accent-yellow: #ffc800;
