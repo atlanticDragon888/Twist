@@ -4,7 +4,7 @@
  * @version 1.0.2
  * @description Discord theme based on PBTFan Twist Keycaps
  * @author Atlantic™#0001
- * @source https://github.com/DagCord/Wildberry
+ * @source https://github.com/atlanticDragon888/Twist
 */
 /* ---- Discord Variables ---- */
 .theme-light {
@@ -286,6 +286,10 @@
 
 .textBadge-1fdDPJ {
   background-color: var(--accent-color) !important;
+  color: var(--background-primary);
+}
+
+.wrapper-3kah-n.selected-1Drb7Z > .childWrapper-1j_1ub > .homeIcon-r0w4ny > path {
   color: var(--background-primary);
 }
 
