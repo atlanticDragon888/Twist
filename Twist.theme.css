@@ -179,23 +179,11 @@
   fill: var(--background-primary);
 }
 
-.bd-switch-checked .bd-switch-body {
+.bd-switch-body {
   color: var(--accent-color) !important;
   background-color: var(--accent-color) !important;
 }
-.bd-switch-checked .bd-switch-body .bd-switch-slider > svg > path {
-  fill: var(--background-primary);
-}
-
-.bd-button {
-  background-color: var(--accent-color);
-  color: var(--background-primary);
-}
-
-.bd-view-button.selected {
-  background-color: var(--accent-color) !important;
-}
-.bd-view-button.selected svg {
+.bd-switch-body .bd-switch-slider > svg > path {
   fill: var(--background-primary);
 }
 
@@ -480,4 +468,4 @@
   color: var(--background-primary) !important;
 }
 
-/*# sourceMappingURL=Theme.css.map */
+/*# sourceMappingURL=Twist.theme.css.map */

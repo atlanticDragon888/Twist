@@ -20,6 +20,26 @@
     }
 
 }
+.bd-switch-checked{
+    .bd-switch-body{
+        color: var(--accent-color) !important;
+        background-color: var(--accent-color) !important;
+        .bd-switch-slider > svg > path{
+            fill: var(--background-primary);
+        }
+
+    }
+}
+.bd-button{
+    background-color: var(--accent-color);
+    color: var(--background-primary);
+}
+.bd-view-button.selected{
+    background-color: var(--accent-color) !important;
+    svg{
+        fill: var(--background-primary);
+    }
+}
 .speaking-2Crrvt{
     background-color: var(--accent-color) !important;
 }
