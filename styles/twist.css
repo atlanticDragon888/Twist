@@ -1,8 +1,9 @@
 /* ---- Discord Variables ---- */
 .theme-light{
-    --accent-yellow: hsl(47, 100%, 50%);
+    --accent-yellow: #ffc800;
     --accent-green: hsl(47, 100%, 50%);
     --button-positive-background: hsl(47, 100%, 50%);
+    --button-positive-background-hover: hsl(47, 100%, 50%);
     --button-outline-danger-text: var(--channels-default);
     --header-primary: var(--text-normal);
     --header-secondary: var(--text-muted);
@@ -21,6 +22,15 @@
     --status-positive-background: var(--info-positive-background);
     --status-warning-background: var(--info-warning-background);
     --status-danger-background: var(--info-danger-background);
+    --status-positive: #B7FE00;
+    --status-warning: #FFC800;
+    --status-danger: #FF4800;
+    --button-positive-background: var(--status-positive);
+    --button-warning-background: var(--status-warning);
+    --button-danger-background: var(--status-danger);
+    --button-outline-positive-background-hover: var(--status-positive);
+    --button-outline-warning-background-hover: var(--status-warning);
+    --button-outline-danger-background-hover: var(--status-danger);
     --interactive-normal: hsl(229, 14%, 70%);
     --interactive-hover: hsl(229, 14%, 75%);
     --interactive-active: #fec600;
@@ -52,9 +62,12 @@
     --channeltextarea-background: var(--background-secondary);
     --brand-experiment: var(--accent-yellow);
     --brand-experiment-80a: hsla(47, 100%, 50%, 0.7);
+    --brand-experiment-600: hsl(47, 100%, 50%);
     --brand-experiment-560: hsl(47, 100%, 50%);
     --brand-experiment-500: hsl(47, 100%, 50%);
     --brand-experiment-400: hsl(47, 80%, 40%);
+    --brand-experiment-360: hsl(47, 100%, 50%);
+    --brand-experiment-300: hsl(47, 100%, 50%);
     --modal-background: var(--background-primary);
     --modal-footer-background: var(--background-secondary)
   }
@@ -63,6 +76,7 @@
     --accent-yellow: hsl(47, 100%, 50%);
     --accent-green: hsl(47, 100%, 50%);
     --button-positive-background: hsl(47, 100%, 50%);
+    --button-positive-background-hover: hsl(47, 100%, 50%);
     --button-outline-danger-text: var(--channels-default);
     --header-primary: var(--text-normal);
     --header-secondary: var(--text-muted);
@@ -81,6 +95,15 @@
     --status-positive-background: var(--info-positive-background);
     --status-warning-background: var(--info-warning-background);
     --status-danger-background: var(--info-danger-background);
+    --status-positive: #B7FE00;
+    --status-warning: #FFC800;
+    --status-danger: #FF4800;
+    --button-positive-background: var(--status-positive);
+    --button-warning-background: var(--status-warning);
+    --button-danger-background: var(--status-danger);
+    --button-outline-positive-background-hover: var(--status-positive);
+    --button-outline-warning-background-hover: var(--status-warning);
+    --button-outline-danger-background-hover: var(--status-danger);
     --interactive-normal: hsl(229, 14%, 70%);
     --interactive-hover: hsl(229, 14%, 75%);
     --interactive-active: #fec600;
@@ -112,7 +135,12 @@
     --channeltextarea-background: var(--background-secondary);
     --brand-experiment: var(--accent-yellow);
     --brand-experiment-80a: hsla(47, 100%, 50%, 0.7);
+    --brand-experiment-600: hsl(47, 100%, 50%);
     --brand-experiment-560: hsl(47, 100%, 50%);
     --brand-experiment-500: hsl(47, 100%, 50%);
     --brand-experiment-400: hsl(47, 80%, 40%);
+    --brand-experiment-360: hsl(47, 100%, 50%);
+    --brand-experiment-300: hsl(47, 100%, 50%);
+    --modal-background: var(--background-primary);
+    --modal-footer-background: var(--background-secondary)
   }

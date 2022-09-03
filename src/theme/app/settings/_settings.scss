@@ -15,6 +15,19 @@
 .checked-25WXMf{
     color: var(--accent-color) !important;
     background-color: var(--accent-color) !important;
+    .slider-32CRPX > svg > path{
+        fill: var(--background-primary);
+    }
+
+}
+.speaking-2Crrvt{
+    background-color: var(--accent-color) !important;
+}
+.bar-1Bhnl9{
+    background-color: (--brand-experiment-500) !important;
+    .barFill-2Bh7CX{
+        background-color: (--brand-experiment-400) !important;
+    }
 }
 .markValue-2U_-UG{
     --text-positive: var(--brand-experiment-80a)

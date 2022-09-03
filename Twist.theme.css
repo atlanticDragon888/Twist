@@ -1,14 +1,14 @@
 @charset "UTF-8";
 /**
  * @name Twist
- * @version 1.0.1
+ * @version 1.0.2
  * @description Discord theme based on PBTFan Twist Keycaps
  * @author Atlantic™#0001
  * @source https://github.com/DagCord/Wildberry
 */
 /* ---- Discord Variables ---- */
 .theme-light {
-  --accent-yellow: hsl(47, 100%, 50%);
+  --accent-yellow: #ffc800;
   --accent-green: hsl(47, 100%, 50%);
   --button-positive-background: hsl(47, 100%, 50%);
   --button-positive-background-hover: hsl(47, 100%, 50%);
@@ -30,6 +30,15 @@
   --status-positive-background: var(--info-positive-background);
   --status-warning-background: var(--info-warning-background);
   --status-danger-background: var(--info-danger-background);
+  --status-positive: #B7FE00;
+  --status-warning: #FFC800;
+  --status-danger: #FF4800;
+  --button-positive-background: var(--status-positive);
+  --button-warning-background: var(--status-warning);
+  --button-danger-background: var(--status-danger);
+  --button-outline-positive-background-hover: var(--status-positive);
+  --button-outline-warning-background-hover: var(--status-warning);
+  --button-outline-danger-background-hover: var(--status-danger);
   --interactive-normal: hsl(229, 14%, 70%);
   --interactive-hover: hsl(229, 14%, 75%);
   --interactive-active: #fec600;
@@ -65,6 +74,8 @@
   --brand-experiment-560: hsl(47, 100%, 50%);
   --brand-experiment-500: hsl(47, 100%, 50%);
   --brand-experiment-400: hsl(47, 80%, 40%);
+  --brand-experiment-360: hsl(47, 100%, 50%);
+  --brand-experiment-300: hsl(47, 100%, 50%);
   --modal-background: var(--background-primary);
   --modal-footer-background: var(--background-secondary) ;
 }
@@ -92,6 +103,15 @@
   --status-positive-background: var(--info-positive-background);
   --status-warning-background: var(--info-warning-background);
   --status-danger-background: var(--info-danger-background);
+  --status-positive: #B7FE00;
+  --status-warning: #FFC800;
+  --status-danger: #FF4800;
+  --button-positive-background: var(--status-positive);
+  --button-warning-background: var(--status-warning);
+  --button-danger-background: var(--status-danger);
+  --button-outline-positive-background-hover: var(--status-positive);
+  --button-outline-warning-background-hover: var(--status-warning);
+  --button-outline-danger-background-hover: var(--status-danger);
   --interactive-normal: hsl(229, 14%, 70%);
   --interactive-hover: hsl(229, 14%, 75%);
   --interactive-active: #fec600;
@@ -127,6 +147,10 @@
   --brand-experiment-560: hsl(47, 100%, 50%);
   --brand-experiment-500: hsl(47, 100%, 50%);
   --brand-experiment-400: hsl(47, 80%, 40%);
+  --brand-experiment-360: hsl(47, 100%, 50%);
+  --brand-experiment-300: hsl(47, 100%, 50%);
+  --modal-background: var(--background-primary);
+  --modal-footer-background: var(--background-secondary) ;
 }
 
 :root {
@@ -158,6 +182,20 @@
 .checked-25WXMf {
   color: var(--accent-color) !important;
   background-color: var(--accent-color) !important;
+}
+.checked-25WXMf .slider-32CRPX > svg > path {
+  fill: var(--background-primary);
+}
+
+.speaking-2Crrvt {
+  background-color: var(--accent-color) !important;
+}
+
+.bar-1Bhnl9 {
+  background-color: --brand-experiment-500 !important;
+}
+.bar-1Bhnl9 .barFill-2Bh7CX {
+  background-color: --brand-experiment-400 !important;
 }
 
 .markValue-2U_-UG {
@@ -314,6 +352,24 @@
 .notice-2HEN-u .closeIcon-3eoP1e > * {
   fill: var(--background-primary);
 }
+.notice-2HEN-u .platformIcon-OrI7z3 {
+  color: var(--background-primary) !important;
+}
+
+.speaking-7QZEkv.border-2Vy6FN, .avatarSpeaking-2pCGrZ, .speaking-3K28iH, .avatarSpeaking-33RRJU {
+  box-shadow: inset 0 0 0 2px var(--accent-color), inset 0 0 0 3px black;
+}
+
+.focusLock-2tveLW .cancelButton-3QVBfe > .contents-3ca1mk {
+  color: var(--channels-default) !important;
+}
+.focusLock-2tveLW .closeIcon-11LhXr {
+  color: var(--channels-default);
+}
+
+.qualityIndicatorBadge-2Am2OE .qualityIndicator-39wQDy > * {
+  color: var(--background-primary);
+}
 
 .userPopoutInner-PA9zkU .username-3JLfHz {
   color: var(--header-primary);
@@ -376,6 +432,36 @@
 
 .layer-2aCOJ3 .username-3JLfHz {
   color: var(--header-primary);
+}
+
+.ping-2IpLcU {
+  color: var(--accent-color);
+}
+
+.tooltip-14MtrL {
+  background-color: var(--accent-color) !important;
+}
+.tooltip-14MtrL .tooltipPointer-3L49xb {
+  fill: var(--accent-color);
+  border-top-color: var(--accent-color) !important;
+}
+.tooltip-14MtrL .tooltipContent-Nejnvh {
+  color: var(--background-primary);
+}
+
+.layer-2aCOJ3 .tooltipPointer-3L49xb {
+  fill: var(--accent-color);
+  border-top-color: var(--accent-color) !important;
+}
+.layer-2aCOJ3 .tooltipContent-Nejnvh .row-x_t5Ya > * {
+  color: var(--background-primary) !important;
+}
+
+.buttonActive-Uc1jHx {
+  background-color: var(--accent-color) !important;
+}
+.buttonActive-Uc1jHx .buttonContents-y1l-R8 {
+  color: var(--background-primary) !important;
 }
 
 /*# sourceMappingURL=Twist.theme.css.map */
