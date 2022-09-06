@@ -13,3 +13,26 @@
 .item-1OdjEX.colorDefault-CDqZdO:not(.colorDanger-3n-KnP).focused-3qFvc8{
     color: var(--background-primary);
 }
+.text-xs-normal-3SiVjE.muteText-13RgwP{    
+    --text-muted: var(--interactive-muted);
+}
+.text-sm-normal-3Zj3Iv.clickCTA-1bk0UN{
+    color: var(--interactive-muted);
+}
+.inner-rBP-MS{
+    color: var(--background-primary) !important;
+    .title-3ChJ_v, .instructions-272j2A{
+        color: var(--background-primary) !important;
+    }
+    .title-3ChJ_v > strong{
+        color: var(--background-primary) !important;
+    }
+}
+.inner-rBP-MS > *{
+    color: var(--background-primary) !important;
+}
+.group-1_ptLP{
+    .selectorTextSelected-2zup8I{
+        color: var(--background-primary);
+    }
+}

@@ -15,3 +15,27 @@
         color: var(--background-primary) !important;
     }
 }
+.status-12NUUC.disableFlex-3I_kDH[aria-label*="Online"]{
+    .mask-2Me5HY > rect{
+        fill: var(--status-positive) !important;
+    }
+}
+.status-12NUUC.disableFlex-3I_kDH[aria-label*="Idle"]{
+    .mask-2Me5HY > rect{
+        fill: var(--status-warning) !important;
+    }
+}
+.status-12NUUC.disableFlex-3I_kDH[aria-label*="Do Not Disturb"]{
+    .mask-2Me5HY > rect{
+        fill: var(--status-danger) !important;
+    }
+}
+.wrapper-1VLyxH[aria-label*="Online"] > svg > rect{
+    fill: var(--status-positive) !important;
+}
+.wrapper-1VLyxH[aria-label*="Idle"] > svg > rect{
+    fill: var(--status-warning) !important;
+}
+.wrapper-1VLyxH[aria-label*="Do Not Disturb"] > svg > rect{
+    fill: var(--status-danger) !important;
+}
