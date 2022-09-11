@@ -1,7 +1,7 @@
 {
     "name": "Twist",
     "description": "Discord theme based on PBTFans Twist Keycaps",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "author": "Atlantic™#0001",
     "theme": "./Theme.css",
     "consent": "true",

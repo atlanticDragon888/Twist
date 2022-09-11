@@ -365,6 +365,14 @@
   color: var(--accent-color);
 }
 
+.newMemberBadge-3PdStX {
+  color: var(--status-positive);
+}
+
+.anchor-1MIwyf.anchorUnderlineOnHover-2qPutX {
+  color: var(--channels-default);
+}
+
 .botTagVerified-2KCPMa, .botText-1fD6Qk {
   color: var(--background-primary);
 }
@@ -489,6 +497,10 @@
 
 .group-1_ptLP .selectorTextSelected-2zup8I {
   color: var(--background-primary);
+}
+
+.mainContent-1ZOoSF > .iconContainer-11h7fa > svg {
+  color: var(--status-positive);
 }
 
 .theme-dark .role-2TIOKu {
